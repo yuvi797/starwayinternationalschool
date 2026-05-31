@@ -75,7 +75,7 @@ export default function KeyInfo() {
           </div>
         </motion.div>
 
-        {/* How to Apply Section
+        {/* How to Apply Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -102,13 +102,13 @@ export default function KeyInfo() {
           <div className="text-center mt-12">
             <motion.button
               whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}y
+              whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-accent-raspberry to-accent-vermilion text-white px-8 py-3 rounded-full text-lg font-bold hover:from-accent-vermilion hover:to-accent-raspberry transition-all duration-300 shadow-md hover:shadow-lg"
             >
               Start Application
             </motion.button>
           </div>
-        </motion.div> */}
+        </motion.div>
       </div>
     </section>
   );
