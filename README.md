@@ -94,3 +94,4 @@ This project was an exciting experience in designing a real-world school website
 ---
 
 ## 📌 If you like this project, don't forget to ⭐ star the repo! 😊
+# starwayinternationalschool
