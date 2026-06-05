@@ -1,21 +1,25 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import image1 from '../../img/photo_6107264399530725526_y.jpg';
+import image2 from '../../img/photo_6107264399530725531_y.jpg';
+import image3 from '../../img/photo_6107264399530725535_y.jpg';
+import image4 from '../../img/photo_6107264399530725531_y.jpg';
 
 const images = [
   {
-    src: '../../img/photo_6107264399530725526_y.jpg',
+    src: image1,
     alt: 'Students engaged in creative classroom activities'
   },
   {
-    src: '../../img/photo_6107264399530725531_y.jpg',
+    src: image2,
     alt: 'Interactive learning session with teachers'
   },
   {
-    src: '../../img/photo_6107264399530725535_y.jpg',
+    src: image3,
     alt: 'School event and cultural celebration'
   },
   {
-    src: '../../img/photo_6107264399530725531_y.jpg',
+    src: image4,
     alt: 'Students participating in group discussion'
   },
 ];
