@@ -118,7 +118,7 @@ const Footer = () => {
               {/* Cropped Image Container */}
               <div className="relative w-full h-96 md:h-[450px] overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
                 <img
-                  src="../../img/Screenshot 2026-06-05 at 9.42.30 PM copy.png"
+                  src={image1}
                   alt="Starway International School Location Map - Dinara, Rohtas, Bihar"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
                   style={{
