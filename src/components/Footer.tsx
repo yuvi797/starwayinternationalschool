@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import image1 from "./../img/Screenshot 2026-06-05 at 9.42.30 PM copy.png"
-import image2 from "../../img/Screenshot 2026-06-05 at 9.42.30 PM copy.png"
+import image1 from "../../img/address.png"
 
 const Footer = () => {
   const handleLocationClick = () => {
@@ -119,7 +118,7 @@ const Footer = () => {
               {/* Cropped Image Container */}
               <div className="relative w-full h-96 md:h-[450px] overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
                 <img
-                  src={image2}
+                  src="../../img/Screenshot 2026-06-05 at 9.42.30 PM copy.png"
                   alt="Starway International School Location Map - Dinara, Rohtas, Bihar"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
                   style={{
