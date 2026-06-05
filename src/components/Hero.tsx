@@ -1,5 +1,8 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import image1 from '../../img/photo_6116073141231619944_y copy.jpg';
+import image2 from '../../img/photo_6132081347632238248_y copy.jpg';
+import image3 from '../../img/photo_6116073141231619943_y copy.jpg';
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,21 +12,21 @@ export default function Hero() {
       id: 1,
       name: "Kanchan Kumari",
       title: "Chairman",
-      image: "../../img/photo_6116073141231619944_y copy.jpg",
+      image: image1,
       description: "Leading with vision and excellence"
     },
     {
       id: 2,
       name: "Neyez Ahamad",
       title: "principle",
-      image: "../../img/photo_6132081347632238248_y copy.jpg",
+      image: image2,
       description: "Dedicated to nurturing young minds"
     },
     {
       id: 3,
       name: "Rajesh Kumar Verma",
       title: "Director",
-      image: "../../img/photo_6116073141231619943_y copy.jpg",
+      image: image3,
       description: "Committed to educational excellence"
     }
   ];
