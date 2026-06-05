@@ -7,17 +7,24 @@ export default function Hero() {
   const leaders = [
     {
       id: 1,
-      name: "Rajesh Kumar Verma",
-      title: "Director & Advocate",
-      image: "/img/photo_6111579295474978460_y copy.jpg",
+      name: "Kanchan Kumari",
+      title: "Chairman",
+      image: "/img/photo_6116073141231619944_y copy.jpg",
       description: "Leading with vision and excellence"
     },
     {
       id: 2,
-      name: "Principal",
-      title: "Principal",
-      image: "/img/photo_6111579295474978461_y copy.jpg",
+      name: "Neyez Ahamad",
+      title: "principle",
+      image: "/img/photo_6132081347632238248_y copy.jpg",
       description: "Dedicated to nurturing young minds"
+    },
+    {
+      id: 3,
+      name: "Rajesh Kumar Verma",
+      title: "Director",
+      image: "/img/photo_6116073141231619943_y copy.jpg",
+      description: "Committed to educational excellence"
     }
   ];
 
@@ -78,10 +85,6 @@ export default function Hero() {
             Nurturing minds, building futures, and creating leaders of tomorrow
           </p>
 
-          {/* <p className="text-xs mb-5 text-white/80 drop-shadow">
-            📮 PIN Code: 802213
-          </p> */}
-
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -92,8 +95,8 @@ export default function Hero() {
           </motion.button>
         </motion.div>
 
-        {/* Leadership Slider Section - Compact Size */}
-        <div className="mt-4 pb-6">
+        {/* Leadership Slider Section - Much Larger Photo Size */}
+        <div className="mt-6 pb-6">
           <div className="max-w-md mx-auto">
             <AnimatePresence mode="wait">
               <motion.div
@@ -102,27 +105,27 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: -20, scale: 0.95 }}
                 transition={{ duration: 0.4 }}
-                className="bg-white/90 backdrop-blur-md rounded-lg shadow-md overflow-hidden"
+                className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg overflow-hidden"
               >
-                <div className="flex items-center gap-3 p-3">
-                  {/* Image Section */}
+                <div className="flex flex-col sm:flex-row items-center gap-5 p-5">
+                  {/* Image Section - Much Larger Size */}
                   <div className="relative">
                     <img
                       src={leaders[currentIndex].image}
                       alt={leaders[currentIndex].name}
-                      className="w-12 h-12 rounded-full object-cover border-2 border-accent-raspberry shadow-sm"
+                      className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-accent-raspberry shadow-lg"
                     />
                   </div>
 
                   {/* Info Section */}
-                  <div className="flex-1 text-left">
-                    <h3 className="text-sm font-bold text-primary">
+                  <div className="flex-1 text-center sm:text-left">
+                    <h3 className="text-lg md:text-xl font-bold text-primary mb-1">
                       {leaders[currentIndex].name}
                     </h3>
-                    <div className="inline-block px-2 py-0.5 bg-gradient-to-r from-accent-raspberry to-accent-vermilion text-white rounded-full text-xs font-semibold mb-1">
+                    <div className="inline-block px-3 py-1 bg-gradient-to-r from-accent-raspberry to-accent-vermilion text-white rounded-full text-sm font-semibold mb-2">
                       {leaders[currentIndex].title}
                     </div>
-                    <p className="text-gray-700 text-xs">
+                    <p className="text-gray-700 text-sm md:text-base">
                       {leaders[currentIndex].description}
                     </p>
                   </div>
@@ -131,14 +134,14 @@ export default function Hero() {
             </AnimatePresence>
 
             {/* Dots Indicator */}
-            <div className="flex justify-center space-x-1.5 mt-3">
+            <div className="flex justify-center space-x-2 mt-4">
               {leaders.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`transition-all duration-300 ${currentIndex === index
-                    ? 'w-4 h-1 bg-white rounded-full'
-                    : 'w-1 h-1 bg-white/50 rounded-full'
+                    ? 'w-6 h-1.5 bg-white rounded-full'
+                    : 'w-1.5 h-1.5 bg-white/50 rounded-full'
                     }`}
                 />
               ))}
