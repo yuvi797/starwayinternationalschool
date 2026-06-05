@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from "../../img/e99d54cd-6fcb-424f-9042-55047a2e447a copy.jpeg"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Navigation() {
           {/* Logo and Brand Section */}
           <a href="#" className="flex items-center space-x-3 group">
             <img
-              src="/img/e99d54cd-6fcb-424f-9042-55047a2e447a copy.jpeg"
+              src={logo}
               alt="Starway International School Logo"
               className="h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105 rounded-full"
             />
