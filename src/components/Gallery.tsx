@@ -3,19 +3,19 @@ import { useInView } from 'react-intersection-observer';
 
 const images = [
   {
-    src: '/img/photo_6107264399530725526_y.jpg',
+    src: '../../img/photo_6107264399530725526_y.jpg',
     alt: 'Students engaged in creative classroom activities'
   },
   {
-    src: '/img/photo_6107264399530725531_y.jpg',
+    src: '../../img/photo_6107264399530725531_y.jpg',
     alt: 'Interactive learning session with teachers'
   },
   {
-    src: '/img/photo_6107264399530725535_y.jpg',
+    src: '../../img/photo_6107264399530725535_y.jpg',
     alt: 'School event and cultural celebration'
   },
   {
-    src: '/img/photo_6107264399530725531_y.jpg',
+    src: '../../img/photo_6107264399530725531_y.jpg',
     alt: 'Students participating in group discussion'
   },
 ];

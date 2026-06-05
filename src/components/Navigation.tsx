@@ -104,14 +104,14 @@ export function LeadershipSlider() {
       id: 1,
       name: "Rajesh Kumar Verma",
       title: "Director & Advocate",
-      image: "/img/photo_6111579295474978460_y.jpg",
+      image: "../../img/photo_6111579295474978460_y.jpg",
       description: "An esteemed advocate and visionary leader with over 20 years of experience in education. Committed to providing quality education and holistic development for every child."
     },
     {
       id: 2,
       name: "Principal",
       title: "Principal",
-      image: "/img/photo_6111579295474978461_y.jpg",
+      image: "../../img/photo_6111579295474978461_y.jpg",
       description: "A dedicated educationist passionate about nurturing young minds and fostering academic excellence. Focused on creating a supportive and innovative learning environment."
     }
   ];

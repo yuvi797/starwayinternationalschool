@@ -9,21 +9,21 @@ export default function Hero() {
       id: 1,
       name: "Kanchan Kumari",
       title: "Chairman",
-      image: "/img/photo_6116073141231619944_y copy.jpg",
+      image: "../../img/photo_6116073141231619944_y copy.jpg",
       description: "Leading with vision and excellence"
     },
     {
       id: 2,
       name: "Neyez Ahamad",
       title: "principle",
-      image: "/img/photo_6132081347632238248_y copy.jpg",
+      image: "../../img/photo_6132081347632238248_y copy.jpg",
       description: "Dedicated to nurturing young minds"
     },
     {
       id: 3,
       name: "Rajesh Kumar Verma",
       title: "Director",
-      image: "/img/photo_6116073141231619943_y copy.jpg",
+      image: "../../img/photo_6116073141231619943_y copy.jpg",
       description: "Committed to educational excellence"
     }
   ];
